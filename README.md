@@ -11,7 +11,8 @@
   ***Follow these steps in order to generate your SSH key pair***  
 1. Open Git Bash
 2. type the following command  
-  ```ssh-keygen -t rsa -C "your_email@example.com"```  
+  Windows - ```ssh-keygen -t rsa -C "your_email@example.com"```  
+  Linux - ```ssh-keygen -t ed25519 -C "your_email@example.com"```  
 3. It will now ask you for a file in which to save this key, leave it empty and press ENTER  
 4. It will now ask you to enter a pass phrase, again leave it empty and press ENTER  
 5. Finally it will ask you to confirm your pass phrase, for the final time leave it empty and press ENTER  
